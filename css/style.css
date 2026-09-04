@@ -255,8 +255,10 @@ img { max-width: 100%; display: block; }
 .timeline-card p { color: var(--text-muted); font-size: 0.92rem; margin-bottom: 12px; }
 .timeline-card p:last-child { margin-bottom: 0; }
 .score-pill {
-  display: inline-block; margin-top: 14px; font-size: 0.8rem; font-weight: 700; color: #04101f;
-  background: linear-gradient(90deg, var(--sky-400), var(--indigo-500)); padding: 6px 14px; border-radius: 999px;
+  display: inline-block; margin-top: 14px; font-size: 0.8rem; font-weight: 700; color: #fff; letter-spacing: 0.02em;
+  background: linear-gradient(135deg, var(--indigo-500), var(--sky-400));
+  box-shadow: 0 8px 18px -6px rgba(99, 102, 241, 0.55);
+  padding: 6px 14px; border-radius: 999px;
 }
 
 /* ===== Skills tags (used inside timeline cards) ===== */
