@@ -162,7 +162,7 @@ img { max-width: 100%; display: block; }
   background: rgba(56, 189, 248, 0.12); border: 1px solid rgba(56, 189, 248, 0.35);
   color: var(--sky-400); font-size: 0.82rem; font-weight: 600; margin-bottom: 22px;
 }
-.hero-text h1 { font-size: clamp(2.1rem, 4vw, 3.1rem); line-height: 1.15; margin-bottom: 16px; }
+.hero-text h1 { font-size: clamp(1.9rem, 5vw, 3.1rem); line-height: 1.15; margin-bottom: 16px; }
 .gradient-text {
   background: linear-gradient(90deg, var(--sky-400), var(--blue-400), var(--indigo-500));
   -webkit-background-clip: text; background-clip: text; color: transparent;
