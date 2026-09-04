@@ -237,6 +237,8 @@ img { max-width: 100%; display: block; }
   display: flex; align-items: center; justify-content: center; font-size: 1.05rem; z-index: 2;
   border: 3px solid var(--sky-400); box-shadow: 0 0 0 6px color-mix(in srgb, var(--sky-400) 15%, transparent);
 }
+.timeline-dot.has-logo { background: #fff; overflow: hidden; }
+.timeline-dot.has-logo img { width: 100%; height: 100%; object-fit: contain; padding: 6px; box-sizing: border-box; }
 .timeline-card {
   flex: 1; min-width: 0;
   background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
@@ -326,5 +328,6 @@ img { max-width: 100%; display: block; }
   .timeline::before { left: 19px; }
   .timeline-item { gap: 16px; margin-bottom: 32px; }
   .timeline-dot { width: 38px; height: 38px; font-size: 0.9rem; }
+  .timeline-dot.has-logo img { padding: 4px; }
   .timeline-card { padding: 20px; }
 }
